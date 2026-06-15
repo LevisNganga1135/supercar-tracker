@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "role": "manager",
+      "email": "alex@dealer.com",
+      "projects": [
+        {
+          "id": 1,
+          "title": "Ferrari 488 Delivery Prep",
+          "description": "Prepare for client delivery",
+          "car_model": "Ferrari 488",
+          "status": "active",
+          "created_at": "2026-06-15 04:54",
+          "tasks": [
+            {
+              "id": 1,
+              "title": "Polish exterior",
+              "status": "complete",
+              "priority": "high",
+              "due_date": "2025-12-01",
+              "contributors": [],
+              "created_at": "2026-06-15 04:55",
+              "completed_at": "2026-06-15 05:02"
+            },
+            {
+              "id": 2,
+              "title": "Check engine oil",
+              "status": "pending",
+              "priority": "medium",
+              "due_date": null,
+              "contributors": [
+                2,
+                1
+              ],
+              "created_at": "2026-06-15 04:55",
+              "completed_at": null
+            },
+            {
+              "id": 3,
+              "title": "Final inspection",
+              "status": "pending",
+              "priority": "high",
+              "due_date": null,
+              "contributors": [],
+              "created_at": "2026-06-15 04:55",
+              "completed_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jordan",
+      "role": "mechanic",
+      "email": "jordan@dealer.com",
+      "projects": []
+    },
+    {
+      "id": 3,
+      "name": "Sam",
+      "role": "sales_rep",
+      "email": "",
+      "projects": [
+        {
+          "id": 2,
+          "title": "Lamborghini Huracan Sale",
+          "description": "Close the deal with new client",
+          "car_model": "Lamborghini Huracan",
+          "status": "active",
+          "created_at": "2026-06-15 04:54",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Taylor",
+      "role": "admin",
+      "email": "",
+      "projects": []
+    }
+  ],
+  "meta": {
+    "person_id_counter": 4,
+    "project_id_counter": 2,
+    "task_id_counter": 3
+  }
+}
