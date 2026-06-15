@@ -150,3 +150,8 @@ The test suite covers:
 - [`rich`](https://pypi.org/project/rich/) — terminal tables, panels, colors
 - [`python-dateutil`](https://pypi.org/project/python-dateutil/) — date handling
 - [`pytest`](https://pypi.org/project/pytest/) — testing
+## Future Improvements
+
+- Add `edit-task` and `edit-project` commands for updating existing records
+- Add date-based filtering (e.g. tasks due this week) using python-dateutil
+- Add a `--json` output mode for scripting/automation
